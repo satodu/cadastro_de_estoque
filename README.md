@@ -1,3 +1,15 @@
+# Controle de Estoque
+
+## Crud simples com Eloquent dentro da pasta produtos
+  - Instalar com composer;
+  - Criar DB com arquivo SQL;
+
+## To - do 
+  - Refazer login;
+  - Melhorar Front-end;
+  - Criar menus;
+
+Documentação do Laravel 
 # Laravel PHP Framework
 
 [![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
