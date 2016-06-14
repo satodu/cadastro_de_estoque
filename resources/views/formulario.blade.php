@@ -34,6 +34,15 @@
 	</div>
 
 	<div class="for-group">
+		<label>Categoria:</label>
+		<select name="categoria_id" class="form-control">
+		@foreach($categorias as $c)
+		<option value="{{$c->id}}">{{$c->nome}}</option>
+		@endforeach
+		</select>
+	</div>
+
+	<div class="for-group">
 		<label>Descrição:</label>
 		<input name="descricao" class="form-control" />
 	</div>

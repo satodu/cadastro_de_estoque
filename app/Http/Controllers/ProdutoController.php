@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\DB;
 use Request;
 use Validator;
 use Auth;
+use estoque\Categoria;
 use estoque\Produto;
 use estoque\Http\Requests\ProdutoRequest;
 
@@ -27,7 +28,7 @@ class ProdutoController extends Controller {
     }
 
     public function novo(){
-        return view('formulario');
+        return view('formulario')->with('categorias', Categoria::all());
     }
 
     public function adiciona(ProdutoRequest $request){
